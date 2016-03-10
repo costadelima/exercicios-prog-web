@@ -1,7 +1,6 @@
 
 #logotipo{
 	width: 200px;
-	
 }
 
 img,iframe{
@@ -10,16 +9,34 @@ img,iframe{
     margin-right: auto;
 }
 
+.mundo{
+	display: inline;
+	background-image: url(img/globo.png);
+    background-repeat: no-repeat;
+}
+
 h1,h2{
-	color: #38761d;
+	color: #535D08;
 	font-family: Times-new-roman;
 	font-size: 28px;
 }
 
 body{
-	margin-left: 20px;
-	margin-right: 20px;
+	margin-left: 200px;
+	margin-right: 200px;
 	background: #BF7979;
 	border: 10px dotted gray;
 	padding: 100px 100px 100px 100px;
+	text-align: justify;
+}
+
+.esmaecer{
+	color: #885757;
+}
+
+a:hover:link {
+	background-color: red;
+}
+a:visited:active{
+	background-color: white;
 }
