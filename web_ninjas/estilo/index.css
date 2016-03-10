@@ -1,0 +1,25 @@
+
+#logotipo{
+	width: 200px;
+	
+}
+
+img,iframe{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1,h2{
+	color: #38761d;
+	font-family: Times-new-roman;
+	font-size: 28px;
+}
+
+body{
+	margin-left: 20px;
+	margin-right: 20px;
+	background: #BF7979;
+	border: 10px dotted gray;
+	padding: 100px 100px 100px 100px;
+}
