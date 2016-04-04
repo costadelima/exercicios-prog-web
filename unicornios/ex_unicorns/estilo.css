@@ -1,4 +1,10 @@
-#cabecalho{
+
+body{
+  margin-left: 17%;
+  margin-right: 17%;
+}
+
+#box1{
   background-color:#6175f0;
   color: white;
   padding-top: 20px;
@@ -6,15 +12,48 @@
   padding-bottom: 13px;
 }
 
-.primeira{
-  width: 310px;
+#box2{
+  background-color: red;
   float: left;
 }
 
-#box1{
-  padding-left: px;
-  box-sizing: padding-box;
+.img1{
+  display: block;
+  width: 310px; /*nao foi colocado no box2 pq o ajuste de
+                  largura seria sobre o box e nao sobre a img*/
 }
+
+#box3{
+  background-color: blue;
+  font-size: 14px;
+  font-family: Arial;
+  padding-left: 323px;
+  clear: right;
+}
+
+#box4{
+  background-color: yellow;
+  padding-left: 12px;
+}
+
+#box5{
+  background-color: #c4caf3;
+  padding-left: 12px;
+}
+
+#box6{
+  background-color: #f8cef7;
+  background-image: url(images/pug.png);
+/*  background-image: url(images/paper.png);
+  background-image: url(images/person.png);*/
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.pad{
+  padding-left: 46px;
+}
+
 .title{
   font-size: 34px;
   font-family: "Kaushan Script";
